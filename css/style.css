@@ -1,0 +1,97 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/NerkoOne-Regular.ttf);
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/NerkoOne-Regular.ttf);
+    font-weight: bold;
+ }
+
+ @keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+  }
+
+.start{
+    width: 100%;
+    height: 400px;
+}
+
+.container-fluid{
+    position: relative;
+    text-align: left;
+    color: rgb(161, 161, 161);  
+}
+
+.container h1{
+    font-family: myFirstFont;
+}
+
+:hover button{
+    color: rgb(250, 4, 4);
+}
+
+.left{
+    color: black; 
+    text-shadow: 10px 10px 10px black;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+.technology{
+    background-image: url('images/web.png');
+    width: 200px;
+    height: 400px;
+}
+
+.box{
+    border-radius: 30px;
+}
+
+.sliding-content h5{
+    color: brown;
+}
+
+.sliding-content p{
+    color: black; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 2px gray;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    padding: 40px;
+    /* margin: 40px; */
+    background-color: rgba(2, 3, 48, 0.932);
+}
+
+.address, .hspm_logo, .contact_us{
+    width: 33%;
+    float: left;
+}
+
+.address, .hspm_logo{
+    float: left;
+}
+
+.hspm_logo{
+    text-align: center;
+}
+
+.footer h3{
+    color: turquoise;
+    font-weight: 200;
+}
+
+.footer h5{
+    color: white;
+    font-weight: 200;
+}
+
+.contact_us{
+    text-align: right;
+}
