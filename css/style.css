@@ -23,28 +23,26 @@
     text-align: left;
     color: rgb(161, 161, 161);  
 }
-
-.container h1{
-    font-family: myFirstFont;
+.section-1{
+    width: 100%;
+    background-color: skyblue;
+    padding: 147px 0 128px 0;
 }
-
-:hover button{
-    color: rgb(250, 4, 4);
+.section-1 .content{color: black;}
+.technology-work{
+    padding: 30px 0 100px 0;
+    text-align: center;
 }
-
-.left{
-    color: black; 
-    text-shadow: 10px 10px 10px black;
-    font-weight: bold;
-    position: absolute;
-    top: 30%;
-    left: 5%;
-}
-
 .technology{
-    background-image: url('images/web.png');
-    width: 200px;
-    height: 400px;
+    padding: 48px 0 40px 0;
+}
+.technology h1{text-align: center;}
+.technology .img-explain{padding: 20px 0; font-weight: 600;}
+.technology .left{margin-left: -30px;}
+.technology .right{margin-right: -30px;}
+
+.transformation{
+    text-align: center;
 }
 
 .box{
@@ -63,35 +61,38 @@
 
 .footer{
     width: 100%;
-    height: 300px;
+    height: auto;
     padding: 40px;
-    /* margin: 40px; */
-    background-color: rgba(2, 3, 48, 0.932);
+    background-color: #011627;
 }
+.footer .address{padding-right: 140px;}
+.footer .hspm_logo, .footer .footer-end{ text-align: center; }
 
-.address, .hspm_logo, .contact_us{
-    width: 33%;
-    float: left;
+.footer h3, .footer h6{
+    color: #00A1E6;
+    font-weight: 400;
+    line-height: 1.6;
 }
-
-.address, .hspm_logo{
-    float: left;
+.footer h6{color: #ffffff;}
+.footer h6:last-child{padding-top: 20px;}
+.footer img{border-radius: 17px; padding-bottom: 20px;}
+.contact_us{ text-align: right; }
+.footer .footer-end{
+    border-top: 2px solid #00A6ED; 
+    color: #ffffff;
+    padding: 20px 0px;
 }
+.footer .icons{padding-top: 20px;}
+.footer .icons .fab{padding: 0 30px; width: 40px;color: #00A1E6;}
 
-.hspm_logo{
-    text-align: center;
+/* Responsive css */
+@media (max-width:768px){
+    .footer .hspm_logo, .footer .address, .footer .contact_us{text-align: center; margin: 25px 0px;}
 }
-
-.footer h3{
-    color: turquoise;
-    font-weight: 200;
+@media (max-width: 1006px){
+    .footer .address{padding-right: 0;}
 }
-
-.footer h5{
-    color: white;
-    font-weight: 200;
-}
-
-.contact_us{
-    text-align: right;
+@media (max-width:1206px){
+    .technology .left{margin-left: 20px;}
+    .technology .right{margin-right: 20px; margin: 0 auto;}
 }
